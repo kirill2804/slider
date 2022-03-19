@@ -1,0 +1,43 @@
+body{
+    position: relative;
+    min-width: 320px;
+    font-family: 'SFProDisplay-Regular', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color:#292929;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+a{
+    display:inline-block;
+    text-decoration: none;
+    color:inherit;
+    font-size: inherit;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}

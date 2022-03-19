@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.ico" rel="icon">
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page">
+
+    <main>
+        <section class="slider">
+            <div class="slider__content">
+                <ul class="slider__list  slider__list_rend">
+                    <li class="slider__item">
+                        <div class="slider__container">
+                            <div class="slider__inner">
+                                <h2 class="slider__title">Защита<br> домашнего очага</h2>
+                                <div class="slider__columns">
+                                    <p class="slider__text">
+                                        Застрахуйте квартиру от кражи<br> и других неприятностей
+                                    </p>
+                                    <a class="slider__link" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <picture>
+                                <source media="(max-width: 375px)" srcset="images/slider-bg2-mobile.png">
+                                <img class="slider__bg-img" src="images/slider-bg2.png" alt="">
+                            </picture>
+                        </div>   
+                    </li>
+                     <li class="slider__item">
+                        <div class="slider__container">
+                            <div class="slider__inner">
+                                <h2 class="slider__title">Защита<br> домашнего очага</h2>
+                                <div class="slider__columns">
+                                    <p class="slider__text">
+                                        Застрахуйте квартиру от кражи<br> и других неприятностей
+                                    </p>
+                                    <a class="slider__link" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <picture>
+                                <source media="(max-width: 375px)" srcset="images/slider-bg2-mobile.png">
+                                <img class="slider__bg-img" src="images/slider-bg2.png" alt="">
+                            </picture>
+                        </div>   
+                    </li>
+                    <li class="slider__item">
+                        <div class="slider__container">
+                            <div class="slider__inner">
+                                <h2 class="slider__title">Защита<br> домашнего очага</h2>
+                                <div class="slider__columns">
+                                    <p class="slider__text">
+                                        Застрахуйте квартиру от кражи<br> и других неприятностей
+                                    </p>
+                                    <a class="slider__link" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <picture>
+                                <source media="(max-width: 375px)" srcset="images/slider-bg2-mobile.png">
+                                <img class="slider__bg-img" src="images/slider-bg2.png" alt="">
+                            </picture>
+                        </div>   
+                    </li>
+                    <li class="slider__item">
+                        <div class="slider__container">
+                            <div class="slider__inner">
+                                <h2 class="slider__title">Защита<br> домашнего очага</h2>
+                                <div class="slider__columns">
+                                    <p class="slider__text">
+                                        Застрахуйте квартиру от кражи<br> и других неприятностей
+                                    </p>
+                                    <a class="slider__link" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                            <picture>
+                                <source media="(max-width: 375px)" srcset="images/slider-bg2-mobile.png">
+                                <img class="slider__bg-img" src="images/slider-bg2.png" alt="">
+                            </picture>
+                        </div>   
+                    </li>
+                </ul>
+            </div>
+
+            <div class="slider__loader-container">
+                <div class="slider__loader">
+                    <svg viewbox="0 0 100 100">
+                        <path fill="none"
+                            stroke-linecap="round"
+                            stroke-width="4"
+                            stroke="#ffffff"
+                            stroke-dasharray="251.2,0"
+                            d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"
+                        ></path>
+                        <path fill="none"
+                            stroke-linecap="round"
+                            stroke-width="4"
+                            stroke="#43B02A"
+                            stroke-dasharray="251.2,0"
+                            d="M50 10 a 40 40 0 0 1 0 80 a 40 40 0 0 1 0 -80"
+                        >
+                            <animate  id="anim" attributeName="stroke-dasharray" from="0,251.2" to="251.2,0" dur="6s" />
+                        </path>
+                    </svg>
+                </div>
+                <ul class="slider__tabs">
+                    <li class="slider__tab slider__tab_active  slider__tab_visible">
+                        <img class="slider__tab-icon" src="images/icon-property.svg" alt="icon-property" width="48" height="48">
+                        <b class="slider__tab-name">Имущество</b>
+                        <span class="slider__tab-list">Дом, квартира, ипотека</span>
+                    </li>
+                    <li class="slider__tab">
+                        <img class="slider__tab-icon" src="images/icon-auto.svg" alt="icon-auto" width="48" height="48">
+                        <b class="slider__tab-name">Автострахование</b>
+                        <span class="slider__tab-list">КАСКО, ОСАГО</span> 
+                    </li>
+                    <li class="slider__tab">
+                        <img class="slider__tab-icon" src="images/icon-tour.svg" alt="icon-tour" width="48" height="48">
+                        <b class="slider__tab-name">Путешествия</b>
+                        <span class="slider__tab-list">Страхование туристов </span>
+                    </li>
+                    <li class="slider__tab">
+                        <img class="slider__tab-icon" src="images/icon-life.svg" alt="icon-life" width="48" height="48">
+                        <b class="slider__tab-name">Жизнь и здоровье</b>
+                        <span class="slider__tab-list">ДМС, ОМС, Несчастный случай</span> 
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>   
+    <script src="js/slider.min.js"></script>
+</body>
+</html>
